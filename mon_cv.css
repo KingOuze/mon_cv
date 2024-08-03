@@ -1,1 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
 
+
+}
+#principal{
+   /* margin: 40px;
+    padding: 40px;*/
+    
+    position: relative;
+   
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+#principal #droite{
+    position: relative;
+   
+    margin-right: 0;
+    padding: 40px;
+    height: 1000px;
+    color: aliceblue;
+    background-color: black;
+}
+#contact_skill{
+    margin-top: 250px;
+
+
+}
+#titre{
+    font-size: 25px;
+}
+#contact h2{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid orangered;
+    border-top: 2px solid orangered;
+    border-left: 2px solid orangered;
+    border-right: 2px solid orangered;
+    
+}
+.reference{
+
+}
+.titre_skill h2{
+    font-size: 30px;
+    text-align: center;
+    border-bottom: 2px solid orangered;
+    border-top: 2px solid orangered;
+    border-left: 2px solid orangered;
+    border-right: 2px solid orangered;
+
+}
+
+
+
+
+
+#principal #gauche{
+    position: relative;
+    padding: 40px;
+    height: 1000px;
+}
