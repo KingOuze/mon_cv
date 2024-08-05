@@ -1,7 +1,5 @@
 
 .profil img{
-
-    
     border-radius: 50%;
     width: 180px;
     height: 180px;
@@ -217,3 +215,49 @@ body {
 #gauche{
     width: 300px;
 }
+
+#educ_experience{
+    position: absolute;
+    top: 20%;
+    left: 0;
+   
+}
+
+#titre_educ{
+
+
+    background-color: orange;
+    width: 480px;
+    text-align: right;
+   
+}
+
+#titre_educ h2{
+    margin-right: 70px;
+}
+
+ul{
+    list-style-type: square;
+}
+
+.educ1{
+  
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 50px; /* Espace entre les blocs */
+
+}
+
+
+#footer{
+    background-color: orange;
+    width: 560px;
+    height: 20px;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    top: 117%;
+
+
+  }
