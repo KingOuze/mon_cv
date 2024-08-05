@@ -66,21 +66,14 @@ body {
 
 }
 #principal{
-   /* margin: 40px;
-    padding: 40px;*/
-    
     position: relative;
-   
     background-color: aliceblue;
     display: grid;
     grid-template-columns: 2fr 1fr;
     
 }
-#principal #gauche{
+#gauche{
     position: relative;
-   
-    margin-right: 0;
-    padding: 40px;
     height: auto;
     color: aliceblue;
     background-color: black;
@@ -122,24 +115,12 @@ body {
 #contact h2{
     font-size: 30px;
     text-align: center;
-    /*
-    border-bottom: 2px solid orange;
-    border-top: 2px solid orange;
-    border-left: 2px solid orange;
-    border-right: 2px solid orange;
-    */
     border: 2px solid orange;
 }
 
 .titre_skill h2{
     font-size: 30px;
     text-align: center;
-    /*
-    border-bottom: 2px solid orange;
-    border-top: 2px solid orange;
-    border-left: 2px solid orange;
-    border-right: 2px solid orange;
-    */
     border: 2px solid orange;
 }
 
@@ -180,6 +161,7 @@ body {
     background-color: orange ;
     border-top: 5px solid orange;
 }
+
 #skill .progression{
     position: relative;
     width: 100%;
@@ -189,13 +171,6 @@ body {
 
 }
 
-/*
-#skill .progression .text0{
-    margin: 0;
-    background-color: orangered;
-    
-}
-    */
     h3{
         background-color: black;
     }
@@ -218,16 +193,9 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0px;
     justify-content: center;
-    border-top: 3px solid white;
 }
 
 
-
-#principal #droite{
-    position: relative;
-    padding: 40px;
-    height: 1500px;
-} 
 
 #droite{
     margin-top: 400px;
@@ -254,6 +222,7 @@ body {
     margin-right: 50px;
     flex-basis: 70%;
 } */
+
 #titre_educ h2{
     margin-right: 80px;
     padding: 10px;
@@ -292,13 +261,27 @@ body {
     background-color: orange;
     margin-right: 10px;
 }
-#footer{
-    height: 50px;
-    width: 1500px;
-    background-color: orange;
-    left: 0;
-    position: absolute;
-    margin-top: 1200px;
 
+ #droite{
+    position: relative;
+    height: auto;
+} 
 
+#gauche{
+    width: 360px;
+    height: auto;
 }
+
+footer {
+    background-color: orange;
+    padding: 10px;
+    position: 0;
+    width: 100%;
+    height: 20px;
+  }
+
+  #educ_experience, #contact_skill {
+    padding: 30px;
+  }
+  
+
