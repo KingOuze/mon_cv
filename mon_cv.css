@@ -1,4 +1,19 @@
 
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .profil img{
 
     
@@ -59,7 +74,6 @@ body {
 }
 #gauche{
     position: relative;
-    
     height: auto;
     color: aliceblue;
     background-color: black;
@@ -182,6 +196,72 @@ body {
 }
 
 
+
+#droite{
+    margin-top: 400px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+#titre_educ{
+    background-color: orange;
+    height: 50px;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+/* #desc1{
+    text-align: right;
+    margin-left: 80%;
+    margin-right: 50px;
+    flex-basis: 70%;
+} */
+
+#titre_educ h2{
+    margin-right: 80px;
+    padding: 10px;
+    
+}
+
+.desc1 {
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 700px;
+    
+}
+
+
+#educ_experience{
+    position: relative;
+}
+#annee, #desc1{
+    position: relative;
+}
+.educ1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.date-square {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.date-square .square {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    margin-right: 10px;
+}
+
  #droite{
     position: relative;
     height: auto;
@@ -204,4 +284,4 @@ footer {
     padding: 30px;
   }
   
- 
+
