@@ -17,7 +17,7 @@
 .nom{
     background-color: orange;
     color: white;
-    width: 733px;
+    width: 705px;
     height: 120px;
     padding: 15px;
     text-transform: uppercase;
@@ -79,9 +79,18 @@ body {
     margin: 0;
     display: inline-block;
     padding: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.agencement {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1px;
     font-size: 15px;
-   
+}
+
+.img {
+    width: 25px;
 }
 .ref{
     display: grid;
@@ -119,13 +128,7 @@ body {
     border: 2px solid orange;
 }
 
-/*pour afficher un fond noir avec des bordures pour pouvoir jouer sur le niveau */ 
-.percent0{
-    width: 100%;
-    border: 2px solid orange;
-    background-color: black;
-    
-}
+
 /*pour representer le niveau en html*/
 .percent1{
     display: block;
@@ -140,23 +143,25 @@ body {
 .percent2{
     display: block;
     width: 20%;
-    height: 25px;
+    height: 20px;
     background-color: orange ;
     border-top: 5px solid orange;
 }
+
 /*pour representer le niveau en algo*/
 .percent3{
     display: block;
     width: 60%;
-    height: 25px;
+    height: 20px;
     background-color: orange;
     border-top: 5px solid orange;
 }
+
 /*pour representer le niveau en linuux*/
 .percent4{
     display: block;
     width: 95%;
-    height: 25px;
+    height: 20px;
     background-color: orange ;
     border-top: 5px solid orange;
 }
@@ -179,18 +184,21 @@ body {
     h3{
         background-color: black;
     }
-#progress1{
-    background-color: orange;
+.progress1 {
+    border: 2px solid orange;
+    background-color: rgb(0, 0, 0);
     width: 100%;
+    height: 25px;
 }
 
 #reseau{
+
     padding: 40px;
     height: 50px;
-    width: 300px;
+    width: 200px;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    margin-top: 200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 0px;
@@ -200,11 +208,11 @@ body {
 
 
 
-/* #principal #droite{
+#principal #droite{
     position: relative;
     padding: 40px;
     height: 1000px;
-} */
+} 
 
 #gauche{
     width: 300px;
