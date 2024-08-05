@@ -261,3 +261,16 @@ ul{
 
 
   }
+
+  .date-square {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.date-square .square {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    margin-right: 10px;
+}
