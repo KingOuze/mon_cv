@@ -206,6 +206,50 @@ body {
     height: 1000px;
 } */
 
-#gauche{
+#droite{
     width: 300px;
+    margin-top: 300px
+}
+#gauche{
+    width: 350px;
+    margin-left: 70%;
+}
+#gauche, #droite {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#titre_educ{
+    height: 45px;
+    color: black;
+    background-color: orange;
+    width: 720px;
+    text-align: right;
+}
+
+#titre_educ h2{
+    margin-right: 50px;
+}
+
+#education, #experience {
+    margin-bottom: 20px;
+}
+
+.educ1 {
+    display: flex;
+
+    margin-bottom: 10px;
+}
+
+#annee {
+    position: relative;
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+}
+#desc1{
+    margin-left: 400px;
+    width: 1500px;
 }
