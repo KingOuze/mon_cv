@@ -209,7 +209,7 @@ body {
 #principal #droite{
     position: relative;
     padding: 40px;
-    height: 1000px;
+    height: 997px;
 } 
 
 #gauche{
@@ -252,7 +252,7 @@ ul{
 
 #footer{
     background-color: orange;
-    width: 560px;
+    width: 545px;
     height: 20px;
     position: absolute;
     left: 0%;
@@ -273,4 +273,17 @@ ul{
     height: 10px;
     background-color: orange;
     margin-right: 10px;
+}
+
+.educ1{
+    margin-left: 50px;
+}
+#reseau img{
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+}
+#reseau:hover img{
+    transform: scale(1.1);
+    opacity: 0.8;
+
 }
